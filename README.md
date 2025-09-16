@@ -89,7 +89,7 @@ Here's the list of all the operations:
 - `cos`: Calculates the cosine of the top element (result in radians)
 - `tan`: Calculates the tangent of the top element (result in radians)
 # Debugging
-The interpreter comes with some debugging features, it checks if an `if` and misses its `endif` and viceversa.  It also applies checks to the types of data (invalid string, invalid number), to the stack (the stack is empty, the stack is composed of less than two elements), to the variable section (the variable doesn't exist), if a token is invalid or if a file exists and its extension is correct.
+The interpreter comes with some debugging features, it checks if an `if` misses its `endif` and viceversa.  It also applies checks to the types of data (invalid string, invalid number), to the stack (the stack is empty, the stack is composed of less than two elements), to the variable section (the variable doesn't exist), if a token is invalid or if a file exists and its extension is correct.
 # Code examples
 ## Trapezoid area
 ```
