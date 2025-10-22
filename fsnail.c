@@ -660,9 +660,8 @@ int delete_var(node *varstack, char name[]){ //Deletes the variable with the spe
     if(*varstack == NULL) return 0;
 
     if(strncmp((*varstack)->name, name, NAME_SIZE) == 0){ //Checks if the variable to delete is the first one
-        node temp = *varstack;
         *varstack = temp->next;
-        free(varstack);
+        free(temp);
         return 1;
     }
 
